@@ -10,5 +10,5 @@
 * 以降その他のプログラムを簡単に説明(予定)
 
 ## yahoo-finance
-  * [Yahoo!ファイナンス](http://stocks.finance.yahoo.co.jp/)から主要国の通過の取引額を表示する.
+  * [Yahoo!ファイナンス](http://stocks.finance.yahoo.co.jp/)から主要国との通貨の取引額を表示する.
   * クラス名からサクッと取り出す.
