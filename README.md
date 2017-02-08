@@ -12,3 +12,7 @@
 ## yahoo-finance
   * [Yahoo!ファイナンス](http://stocks.finance.yahoo.co.jp/)から主要国との通貨の取引額を表示する.
   * クラス名からサクッと取り出す.
+
+## aozora
+  * [青空文庫](http://www.aozora.gr.jp/)から指定した作者の作品を全て表示する.
+  * デフォルトでは夏目漱石の作品が表示される.
