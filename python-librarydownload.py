@@ -22,11 +22,15 @@ def enum_links(html, base):
 # ファイルをダウンロードし保存する
 def download_file(url):
     o = par.urlparse(url)
+    # 保存先のpathを生成
     savepath = "./" + o.netloc + o.path
+    # ディレクトリならindex.html
     if re.search(r"/$", savepath):
         savepath += "index.html"
     savedir = os.path.dirname(savepath)
+    # ファイル(ディレクトリ)の有無を確認
     if os.path.exists(savepath): return savepath
+    # ディレクトリがなければ作る
     if not os.path.exists(savedir):
         print("mkdir:", savedir)
         makedirs(savedir)
